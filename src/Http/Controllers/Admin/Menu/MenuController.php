@@ -1,11 +1,11 @@
 <?php
 
-namespace Novius\Backpack\Menu\Http\Controllers\Admin\Menu;
+namespace Novius\Menu\Http\Controllers\Admin\Menu;
 
-use Novius\Backpack\CRUD\Http\Controllers\CrudController;
-use Novius\Backpack\Menu\Models\Menu;
-use Novius\Backpack\Menu\Http\Requests\Admin\MenuRequest as StoreRequest;
-use Novius\Backpack\Menu\Http\Requests\Admin\MenuRequest as UpdateRequest;
+use Backpack\CRUD\app\Http\Controllers\CrudController;
+use Novius\Menu\Models\Menu;
+use Novius\Menu\Http\Requests\Admin\MenuRequest as StoreRequest;
+use Novius\Menu\Http\Requests\Admin\MenuRequest as UpdateRequest;
 
 class MenuController extends CrudController
 {
