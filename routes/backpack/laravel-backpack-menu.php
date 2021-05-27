@@ -7,6 +7,6 @@ Route::group([
     'prefix' => config('backpack.laravel-backpack-menu.prefix', 'admin'),
     'middleware' => ['web', 'admin'],
 ], function () {
-    CRUD::resource('menu', 'MenuController');
-    CRUD::resource('item', 'ItemController');
+    Route::crud('menu', 'MenuController');
+    Route::crud('item', 'ItemController');
 });
