@@ -1,9 +1,9 @@
 <?php
+namespace Novius\Menu\Http\Controllers\Admin\Menu;
 
-namespace Novius\Backpack\Menu\Http\Controllers\Admin\Menu;
+use Backpack\CRUD\app\Http\Controllers\CrudController;
 
 use Illuminate\Support\Facades\Request;
-use Novius\Backpack\CRUD\Http\Controllers\CrudController;
 use Illuminate\Support\Facades\App;
 use Novius\Backpack\Menu\LinkedItems;
 use Novius\Backpack\Menu\Models\Item;
